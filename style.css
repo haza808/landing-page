@@ -3,6 +3,7 @@ body {
     margin: 0;
    
 
+
     display: flex;
     flex-direction: column;
 }
@@ -13,14 +14,14 @@ ul{
     padding: 16px; 
   }
   
-  a {
+a {
     text-decoration: none;
-    font-size: 24px;
     color: white;
   }
 
 .top-head {
     background-color: #1f2937;
+    padding: 25px 250px;
 
     display: flex;
     justify-content: space-between;
@@ -28,21 +29,33 @@ ul{
 
 .title {
     color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+
 }
 
 .right-links {
-    color: #f9faf8;
+    color: #e5e7eb;
+    padding: 0;
+    font-size: 18px;
 
     display: flex;
+    gap: 16px;
 }
 
 .section-one {
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 25px 250px;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
 }
 
 .section-two {
