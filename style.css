@@ -1,9 +1,6 @@
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
-    
-   
-
 
     display: flex;
     flex-direction: column;
@@ -19,6 +16,30 @@ a {
     text-decoration: none;
     color: white;
   }
+
+h1 {
+    margin: 0;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    border: 0px;
+    padding: 5px;
+    border-radius: 6px;
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+blockquote {
+    max-width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
 
 .top-head {
     background-color: #1f2937;
@@ -46,12 +67,20 @@ a {
 
 .section-one {
     background-color: #1f2937;
+    padding: 25px 250px;
     color: #f9faf8;
     padding: 25px 250px;
 
     display: flex;
     justify-content: space-between;
+}
 
+.second-hero {
+    padding: 12px 0px;
+    padding-right: 100px;
+    margin: 0;
+    font-size: 18x;
+    color: #e5e7eb;
 }
 
 .left-text {
@@ -60,6 +89,7 @@ a {
 }
 
 .section-two {
+    padding: 25px 250px;
     text-align: center;
 }
 
@@ -73,21 +103,88 @@ a {
     gap: 52px;
 }
 
+.card {
+    
+}
+
+.info-image {
+    border: 5px solid #555;
+    border-radius: 12px;
+    border-color: #3882f6;;
+    height: 200px;
+    width: 200px;
+}
+
+.text {
+    width: 200px;
+    color: grey;  
+}
+
 
 .section-three {
     background-color: #e5e7eb;
+    padding: 25px 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.quote-author {
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
 .section-four {
+    padding: 25px 250px;
     display: flex;
     justify-content: center;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: royalblue;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    gap: 16px;
+    padding: 16px;
+}
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #f9faf8;
+  }
+
+
+  .notif-text {
+    margin-bottom: 16px;
+    color: #f9faf8;
+  }
+
+  button {
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  
+  button.signup {
+    background: royalblue;
+    border: 1px solid white;
+    color: white;
+  }
+
+
 .footer {
     background-color: #1f2937;
+    padding: 25px 250px;
     color:#f9faf8;
 
     display: flex;
