@@ -47,7 +47,7 @@ blockquote {
 
     display: flex;
     justify-content: space-between;
-}
+} 
 
 .title {
     color: #f9faf8;
@@ -101,10 +101,6 @@ blockquote {
     display: flex;
     justify-content: center;
     gap: 52px;
-}
-
-.card {
-    
 }
 
 .info-image {
